@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ chọn theo trạng thái- Lớp giả</title>
+    <style>
+    /*Định dạng nút và khi đưa con trỏ vào nút đó*/
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: lightgray;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: green;
+      color: white;
+    }
+    /*Định dạng 1 hộp text và khi nhấp vào vào hộp*/
+    input[type="text"] {
+      padding: 8px;
+      font-size: 16px;
+      border: 2px solid gray;
+      border-radius: 4px;
+      outline: none;
+    }
+    input[type="text"]:focus {
+      border-color: blue;
+    }
+    /*Định dạng 1 đường link và khi nhấp vào nó sẽ đổi màu tím vì đã vào trang rồi*/
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: purple;
+    }
+    /* Định dạng cho checkbox */
+    input[type="checkbox"] {
+      width: 25px;
+      height: 25px;
+      appearance: none; /* Loại bỏ kiểu mặc định */
+      border: 2px solid gray;
+      cursor: pointer;
+      position: relative;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    /* Thay đổi rõ ràng khi checkbox được chọn */
+    input[type="checkbox"]:checked {
+      background-color: blueviolet;
+      border-color: green;
+    }
+    /* Hiển thị dấu kiểm khi checkbox được chọn */
+    input[type="checkbox"]:checked::before {
+      content: "✔";
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 0;
+      left: 3px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Di chuột vào nút dưới đây để thấy hiệu ứng hover:</h2>
+        <button>Di chuột vào tôi!</button>
+    </div>
+    <div>
+        <h2>Nhấp vào ô nhập liệu để thấy hiệu ứng focus:</h2>
+        <input type="text" placeholder="Nhập vào đây...">
+    </div>
+    <div>
+        <h2>Nhấp vào các liên kết dưới đây để thấy hiệu ứng visited:</h2>
+        <a href="https://www.example.com" target="_blank">Liên kết đến Example</a><br><br>
+        <a href="https://www.wikipedia.org"target="_blank">Liên kết đến Wikipedia</a>
+    </div>
+    <div>
+        <h2>Chọn ô checkbox dưới đây để thấy hiệu ứng rõ ràng khi checked:</h2>
+        <input type="checkbox"> Tôi đồng ý với điều khoản sử dụng
+    </div>
+    <div>
+        
+    </div>
+</body>
+</html>

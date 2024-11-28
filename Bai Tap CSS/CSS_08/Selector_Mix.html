@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ chon tổ hợp</title>
+    <!--(div span lấy phần tử ở trong hay chính xác là sau phần tử đầu)-->
+    <!--(span div giống ở trên nma đổi vị trí)-->
+    <!--ul>li lấy li vì li là con của ul-->
+    <!--p ~ span lấy các phần tử sau phần tử p-->
+    <!--h2 + p lấy 1 phần tử p sau phần tử h2-->
+    <style>
+        div span {border: 4px solid blue;}
+        span div {border: 5px solid red;}
+        ul > li {background-color: aquamarine;}
+        p ~ span {background-color: blueviolet;}
+        h2 + p {background-color: aqua;}
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hello chào <span>alllll các </span>bạn nha</p>
+    </div>
+    <span>
+        <div>
+            <p>hi chào bạn</p>
+        </div>
+    </span>
+    <ul>
+        <li> Phần 1 </li>
+        <em>phần giữa</em>
+        <a><li> Phần 2 </li></a>
+    </ul>
+    <p> xin chào</p>
+    <span> các bạn</span>
+    <h2>Đây là tiêu đề</h2>
+    <p>oke oke oke</p>
+    <p>haizzzz</p>
+    <span>uk</span>
+    <h2>uk</h2>
+        <p>một nè</p>
+        <p>hai nè</p>
+    <h2>oke</h2>
+</body>
+</html>

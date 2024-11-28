@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HocVeClass_Bộ Chọn_Cơ bản+ gộp</title>
+        <!--p._chỉ để chỉ việc định dạng cho phần tử p-->
+        <!--(~= là lấy miễn có giá trị đó là được)-->
+        <!--(|= là lấy cái nào có từ bắt đầu, từ đơn)-->
+        <!--(^= là lấy hết giống |= nma lấy từ bắt đầu)-->
+        <!--($= là lấy có giá trị cuối như chỉ định)-->
+        <!--(*= là lấy có giống với value chỉ định [te]=>[teach] vẫn được)-->
+        <style>
+            .thànhphố {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            }            
+            p.hometown {   background: #58257b;  color: white;}
+            p.center {  text-align: center;  color: red;}
+            p.large {  font-size: 300%;}
+            .hoang.sang{color: blue;}
+            #colorne{color:green ;}
+
+            a[target="_blank"] {background-color: yellow;}
+            [title~="flower"] {  border: 5px solid purple;}
+            [class|=top] {  background: purple;  color: white;}
+            [class~="top"] {  color: aqua;}
+            h1[class^="top"] {  background: purple;}
+            [class$="test"] {  background: yellow;}
+            [class*="te"] {  background: yellow;}
+            p,h1,div {border: 5px solid blue;}
+    </style>
+</head>
+<body>
+    <h2 class="thànhphố">Hà Nội</h2>
+    <p>Hà Nội là thủ đô của Việt Nam.</p>
+
+    <h2 class="thànhphố">Paris</h2>
+    <p>Paris là thủ đô của Pháp.</p>
+
+    <h2 class="thànhphố">Tokyo</h2>
+    <p>Tokyo là thủ đô của Nhật Bản.</p>
+
+    <h2 class="hometown">Chào mừng bạn đến với Website Quản Trị Mạng</h2>
+    <p>Chuyên mục Làng Công nghệ</p>
+    <p class="hometown">Chuyên mục Công nghệ</p>
+    <p>Chuyên mục Khoa học</p>
+    <p class="hometown">Chuyên mục Ứng dụng</p>
+
+    <h3 class="center">Heading này không bị ảnh hưởng bởi class center</h3>
+    <p class="center">Đoạn này sẽ được căn giữa và có màu đỏ</p>
+    <!--chồng 2 cái class được với nhau-->
+    <p class="center large">Đoạn này sẽ được căn giữa, có màu đỏ và kích thước font chữ rất to</p>
+    <p class = "hoang sang "> xin chao b</p>
+    <h2 class = "hoang sang">hello ban nha</h2>
+    <h1 id ="colorne">xin chao hai bạn nha</h1>
+    <hoang class =" hoang sang"> hello nhau</hoang>
+
+    <p>Các link có thuộc tính target sẽ có background màu vàng:</p>
+    <a href="https://quantrimang.com/">quantrimang.com</a><br>
+    <a href="https://meta.vn/" target="_blank">meta.vn</a><br>
+    <a href="https://gamevui.vn/" target="_top">gamevui.vn</a><br>
+
+    <div>
+        <h3>Tất cả hình ảnh có thuộc tính title chứa từ "flower" thì 
+        được thêm viền \màu tím.</h3>
+        <img src="img-flower-1.jpg" title="flower" width="150" height="100">
+        <img src="img-flower-2.jpg" title="klematis flower" width="200" height="133">
+        <img src="img_tree.gif" title="tree" width="200" height="358">
+    </div>
+    <div>
+        <h1 class="top-header">Website Quản trị mạng</h1>
+        <h2 class="top-text">Công nghệ - Lập trình</h2>
+        <p class="top content">CSS và CSS3</p>
+        <h1 class="top-header">Website Quản trị mạng</h1>
+    </div>
+</body>
+</html>

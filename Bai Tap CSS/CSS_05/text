@@ -1,0 +1,8 @@
+_chuyên nghiệp (typography)
+_Trong CSS, có năm loại phông chữ (generic font family) phổ biến, 
+gồm: serif, sans-serif, monospace, cursive và  fantasy.
+    +Serif có nghĩa là những nét nhỏ được thêm vào các chữ. Người ta hay gọi serif là “chữ có chân”.
+    +Ngược lại với serif, sans-serif là loại chữ “không có chân”, sans  trong tiếng Latinh có nghĩa là “không” (without).
+    +Monospace là loại chữ mà các kí tự có độ rộng bằng nhau (constant width). Mono nghĩa là duy nhất, đơn nhất
+    +Cursive là loại chữ viết tay (script, handwritten).
+    +Fantasy là loại chữ dùng nhiều trong thiết kế trang trí, tạo tiêu đề.

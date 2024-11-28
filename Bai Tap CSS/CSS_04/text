@@ -1,0 +1,32 @@
+Câu 1. CSS là viết tắt của các từ nào?
+B. Cascading Style Sheets
+
+Câu 2. Quan sát đoạn mã p { color: red; font-size: 54px; }, theo thuật ngữ của CSS, phát biểu nào sau đây không đúng?
+D. Đoạn mã trên là một khai báo (declaration)
+
+Câu 3. Bạn có thể viết mã CSS ở đâu? Phát biểu nào sau đây không đúng?
+C. Viết ở trong tài liệu HTML, sử dụng phần tử <script>
+
+Câu 4. Theo kĩ thuật xếp lớp (cascading) trong CSS, loại mã CSS nào có độ ưu tiên cao nhất ?
+C. Biểu định kiểu tác giả
+
+Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?
+<style>
+p { color: purple;}
+p { color: green; }
+p { color: gray; }
+</style>
+C. Xám
+
+Câu 6. Trong các phương pháp để định chuẩn CSS (normalize CSS, reset CSS), 
+cách nào sau đây không đúng?
+B. Dùng bộ mã reset CSS của Eric Meyer
+->D. Dùng lệnh Reset của CSS
+
+Câu 7. In CSS, the term _____ is used when talking about design and layout. 
+The CSS ______ is essentially a box that wraps around every HTML element. 
+It consists of: margins, borders, padding, and the actual content.
+D. box model
+
+Câu 8. Trong CSS, đơn vị đo nào sau đây không phải là đơn vị đo tương đối (relative)?
+D. px

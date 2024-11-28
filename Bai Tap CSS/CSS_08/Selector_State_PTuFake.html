@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ chọn theo trạng thái_Phần tử giả</title>
+    <style>
+    p::first-line {
+      font-weight: bold;
+      color: blue;
+      font-size: 20px;
+    }
+    p::first-letter {
+      font-size: 30px;
+      color: red;
+      font-weight: bold;
+    }
+    /*Chèn nội dung vào sau và trước phần tử*/
+    h2::before {
+      content: "🌟 ";
+      color: gold;
+      font-size: 24px;
+    }
+    h2::after {
+      content: " ✨";
+      color: gold;
+      font-size: 24px;
+    }
+    </style>
+</head>
+<body>
+    <!--Đương nhiên là nó sẽ thay đổi theo cái trang mình nhìn thấy dòng đầu là dòng nào-->
+    <p>Đây là đoạn văn mẫu. Dòng đầu tiên của đoạn văn này 
+        sẽ được làm nổi bật với màu xanh dương, kích thước lớn và in đậm. 
+        Các dòng tiếp theo sẽ hiển thị kiểu chữ bình thường.</p>
+    <div>
+        <h2>Tiêu đề quan trọng</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            /* Kích hoạt Flexbox */
+            justify-content: space-around;
+            /* Khoảng cách đều nhau giữa các phần tử */
+            align-items:center;
+            /* Căn giữa các phần tử theo chiều dọc */
+            height: 200px;
+            /* Chiều cao của container */
+            background-color: lightgray;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: steelblue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+</body>
+
+</html>

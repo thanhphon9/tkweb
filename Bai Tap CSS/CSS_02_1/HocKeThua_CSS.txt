@@ -1,0 +1,19 @@
+<!DOCSTYLE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hoc CSS So 02</title>
+	<style>
+		p{
+
+            		font-size: 41px;
+
+            		color: red;
+
+        	}
+	</style>
+</head>
+<body>
+	<p>Cuối tuần đi đá banh, giúp thêm <em> năng lượng </em> để làm việc</p>
+</body>
+</html>
